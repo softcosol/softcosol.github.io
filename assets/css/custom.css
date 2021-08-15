@@ -1,0 +1,55 @@
+/* 
+
+1. Add your custom Css styles below
+2. Place the this code in your template: 
+
+ <link href="css/custom.css" rel="stylesheet">
+
+*/
+
+li{
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: none;
+    letter-spacing: 0;
+    color: #777777;
+}
+
+li > a:hover{
+    color: #00FF00 !important;
+    
+}
+
+.header-sticky > .header-inner{
+    background-color: #212529 !important;
+}
+
+h2:before {
+    background-color: #28a745 !important;
+}
+
+.background-colored{
+    background-color: #212529 !important;
+}
+
+.team-desc > p{
+    text-align: left !important;
+}
+
+.timeline-icon{
+    background-color: #28a745 !important;
+}
+
+.team-image > img{
+    height: 206px;
+}
+
+.team-desc {
+    padding-top: 5px !important;
+}
+
+.team-desc > h3 {
+    font-size: 18px !important;
+    font-weight: 600 !important;
+}
